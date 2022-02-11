@@ -1,6 +1,35 @@
-#logo {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 48px;
-    color: red;
-    font-weight: bold;
+* {
+    background-color: #faf4d0;
 }
+p, ol, ul, a {
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logo {
+    font-size: 48px;  
+    text-align: center;
+}
+
+#logo a {   
+    color: red;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.recipe-img {
+    height: 400px;
+    width: auto;
+}
+
+.intro {
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(22, 50, 73);
+}
+#quote-author {
+    text-align: right;
+}
+
+
